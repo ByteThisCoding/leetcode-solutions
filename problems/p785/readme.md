@@ -15,7 +15,11 @@ Based on these observations, particularly the second point, we can determine whe
 ## Implementation Strategy
 We can use a breadth-first search algorithm to iterate over the nodes and add each node to its corresponding set. The entry node can be assigned to set *A*, then its connected nodes to *B*, their connected nodes to *A*, etc. In the case of disconnected graphs, we can take this action for each connected subgraph. If, during the traversal, we encounter a node which has already been visited, we can ensure the visited node is in the opposite set of the current node. If it is not, we can return *false* immediately. If this never happens, we can return *true*. We will implement this algorithm using a *HashMap* to record which set each vertex belongs to.
 
+## Space and Time Complexity
+We will define the space and time complexity in terms of the number of vertices *v* and the number of edges *e*. The space complexity is *O(v)*, as we are using a *HashMap* to map each vertex with a boolean indicating if it is a member of set *A* or set *B*. We will also be using an additional *HashSet* and *Queue* for the graph traversal, both of which are related to the number of vertices. The time complexity is *O(v+e)*, which is the same as the time complexity for a breadth-first search.
+
 ## Additional Resources
 The links below outline some of the points discussed above in more detail.
 1. [Introduction to HashMaps](https://bytethisstore.com/articles/pg/implement-hash-table)
+1. [Introduction to Queues](https://bytethisstore.com/articles/pg/queue)
 1. [Graph Traversal Algorithms](https://bytethisstore.com/articles/pg/graph-algorithms-depth-breadth-search)

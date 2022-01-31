@@ -20,11 +20,6 @@ public class Main extends SolutionRunner<Integer, Solution> {
     }
 
     @Override
-    protected String getSolutionMethod() {
-        return "findCenter";
-    }
-
-    @Override
     protected boolean areValuesEqual(Integer valueA, Integer valueB) {
         return valueA.compareTo(valueB) == 0;
     }

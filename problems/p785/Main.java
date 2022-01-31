@@ -19,11 +19,6 @@ public class Main extends SolutionRunner<Boolean, Solution> {
     }
 
     @Override
-    protected String getSolutionMethod() {
-        return "isBipartite";
-    }
-
-    @Override
     protected boolean areValuesEqual(Boolean valueA, Boolean valueB) {
         return valueA.equals(valueB);
     }

@@ -31,7 +31,7 @@ Based on the points outline above, we will take the following approach:
 Note that the use of a *HashSet* will give us *O(1)* lookup time, whereas an *ArrayList* would need *O(n)* for the same operation. For the traversal algorithm, we will use breadth-first search to find the path between the two vertices. Also, looking at the problem statement, all node values will be something between *0* and *n-1*, where *n* is one of the input parameters. Therefore, instead of using a *HashMap* for our key value mapping, we can directly use an *ArrayList* and use the indices as keys.
 
 ## Space and Time Complexity
-We will define the space and time complexity in terms of the number of vertices *v* and the number of edges *e*. The space complexity is *O(v+e)*, as we are using a HashMap to map each vertex with its connected vertices; thus, we will have one key per vertex and one entry in each value set per edge.
+We will define the space and time complexity in terms of the number of vertices *v* and the number of edges *e*. The space complexity is *O(v+e)*, as we are using a *HashMap* to map each vertex with its connected vertices; thus, we will have one key per vertex and one entry in each value set per edge.
 We will also be using an additional *HashSet* and *Stack* for the graph traversal.
 The time complexity is *O(v+e)*, as we will need to iterate once over the edges to create the HashMap, then the complexity of the traversal algorithm itself is *O(v+e)*. 
 

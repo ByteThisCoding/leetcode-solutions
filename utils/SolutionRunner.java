@@ -71,7 +71,9 @@ public abstract class SolutionRunner<T, S> {
     /**
      * Get a name of the method the solution class exposes
      */
-    protected abstract String getSolutionMethod();
+    protected String getSolutionMethod() {
+        return getSolutionClass().getMethods()[0].getName();
+    }
 
     /**
      * Used to check if the expected is equal to the actual
