@@ -1,5 +1,6 @@
-package problems.p1971bfsApproach;
+package problems.p1971;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -17,31 +18,32 @@ public class Solution {
         }
 
         // proceed to graph creation
-        ArrayList<HashSet<Integer>> graph = createGraph(n, edges);
+        ArrayList<Integer>[] graph = createGraph(n, edges);
         return connectedGraphHasValue(source, destination, graph);
     }
 
     /**
-     * Create an ArrayList representation of the input graph
+     * Create a list representation of the input graph
      * 
      * Key is a node value, but since values are 0-n,
-     * we can use ArrayLists instead of maps
+     * we can use arrays instead of maps
      * 
-     * Value is a set of node values the key connects to
+     * Value is a list of node values the key connects to
      */
-    private ArrayList<HashSet<Integer>> createGraph(int n, int[][] edges) {
-        ArrayList<HashSet<Integer>> list = new ArrayList<>(n);
+    private ArrayList<Integer>[] createGraph(int n, int[][] edges) {
+        ArrayList<Integer>[] list = (ArrayList<Integer>[]) Array.newInstance(ArrayList.class, n);
 
-        // initialize with sets
+        // initialize with lists
         for (int i = 0; i < n; i++) {
-            // create set for n
-            list.add(new HashSet<Integer>());
+            // create for n
+            list[i] = new ArrayList<>();
         }
 
+        // iterate over edges
         for (int[] edge : edges) {
-            // update values in sets
-            list.get(edge[0]).add(edge[1]);
-            list.get(edge[1]).add(edge[0]);
+            // update values in lists
+            list[edge[0]].add(edge[1]);
+            list[edge[1]].add(edge[0]);
         }
 
         return list;
@@ -52,7 +54,7 @@ public class Solution {
      * This uses an iterative depth-first search
      */
     private boolean connectedGraphHasValue(Integer nodeValue, Integer searchValue,
-            ArrayList<HashSet<Integer>> graph) {
+            ArrayList<Integer>[] graph) {
 
         HashSet<Integer> visitedNodes = new HashSet<>();
         Queue<Integer> nodesToVisit = new LinkedList<>();
@@ -64,7 +66,7 @@ public class Solution {
             Integer currentNode = nodesToVisit.poll();
             visitedNodes.add(currentNode);
 
-            for (Integer nextNode : graph.get(currentNode)) {
+            for (Integer nextNode : graph[currentNode]) {
                 if (!visitedNodes.contains(nextNode)) {
                     // we can check here to save time
                     if (nextNode.equals(searchValue)) {

@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 89,
+        "path": "gray-code",
+        "title": "Gray Code"
+    },
+    "solution": {
+        "ID": "0db4e341-f3cd-4c8f-b817-0a6942a81bc3",
+        "title": "Sequence Swap"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "code",
+        "sequence",
+        "binary tree",
+        "graph"
+    ]
+}

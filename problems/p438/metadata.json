@@ -1,0 +1,23 @@
+{
+    "problem": {
+        "number": 438,
+        "path": "find-all-anagrams-in-a-string",
+        "title": "Find All Anagrams in a String"
+    },
+    "solution": {
+        "ID": "e90087fc-2cc0-4e6e-9f46-54679c18a816",
+        "title": "Maps and Buffers"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "anagram",
+        "string",
+        "set",
+        "map",
+        "hashset",
+        "hashmap",
+        "buffer",
+        "circular buffer",
+        "queue"
+    ]
+}

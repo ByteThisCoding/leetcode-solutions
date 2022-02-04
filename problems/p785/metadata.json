@@ -1,0 +1,19 @@
+{
+    "problem": {
+        "number": 785,
+        "path": "is-graph-bipartite",
+        "title": "Is Graph Bipartite?"
+    },
+    "solution": {
+        "ID": "5cb167e9-bd0b-4044-b363-3065fe0ec126",
+        "title": "Breadth First Search"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "bfs",
+        "breadth first search",
+        "sets"
+    ]
+}

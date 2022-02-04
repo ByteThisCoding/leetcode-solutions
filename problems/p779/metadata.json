@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 779,
+        "path": "k-th-symbol-in-grammar",
+        "title": "K-th Symbol in Grammar"
+    },
+    "solution": {
+        "ID": "c3d43a69-e3da-4cbb-9f9f-5a3a23a5f845",
+        "title": "Map Quadratic Iteration"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "tree",
+        "tree traversal",
+        "binary tree",
+        "binary search"
+    ]
+}

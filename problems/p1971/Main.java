@@ -1,4 +1,4 @@
-package problems.p1971bfsApproach;
+package problems.p1971;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;

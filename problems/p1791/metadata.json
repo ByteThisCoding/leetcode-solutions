@@ -1,0 +1,19 @@
+{
+    "problem": {
+        "number": 1791,
+        "path": "find-center-of-star-graph",
+        "title": "Find Center of Star Graph"
+    },
+    "solution": {
+        "ID": "12514bb6-8f48-4e7a-9361-1c920b449768",
+        "title": "Boolean Checking"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "set",
+        "hashset",
+        "boolean"
+    ]
+}

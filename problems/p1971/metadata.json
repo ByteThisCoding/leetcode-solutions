@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 1971,
+        "path": "find-if-path-exists-in-graph",
+        "title": "Find if Path Exists in Graph"
+    },
+    "solution": {
+        "ID": "8bae4aec-b639-444b-8447-343e0d2b209b",
+        "title": "BFS over Disconnected Graph"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "disconnected graph",
+        "connected graph",
+        "bfs",
+        "breadth first search"
+    ]
+}

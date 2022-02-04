@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 454,
+        "path": "4sum-ii",
+        "title": "4Sum II"
+    },
+    "solution": {
+        "ID": "c5182c36-b8fb-4e45-ac02-e77460a471dd",
+        "title": "Map Quadratic Iteration"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "tree",
+        "tree traversal",
+        "hashmap",
+        "iteration",
+        "quadratic iteration"
+    ]
+}
