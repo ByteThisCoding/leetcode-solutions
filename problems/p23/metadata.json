@@ -1,0 +1,19 @@
+{
+    "problem": {
+        "number": 23,
+        "path": "merge-k-sorted-lists",
+        "title": "Merge k Sorted Lists"
+    },
+    "solution": {
+        "ID": "f8cec3e7-fa51-480c-9fbb-3d0806bd6a22",
+        "title": "Min Heap"
+    },
+    "youtubeVideoID": "ErHGoRpJZec",
+    "tags": [
+        "min heap",
+        "priority queue",
+        "linked list",
+        "sorted",
+        "merge linked list"
+    ]
+}
