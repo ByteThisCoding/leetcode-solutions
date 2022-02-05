@@ -46,3 +46,4 @@ If we include the return value in the space complexity, it will be *O(2^n)* whic
 
 ## Additional Resources
 1. [Dealing with Numbers in Different Bases](https://bytethisstore.com/articles/pg/intro-hexadecimal-numbers)
+1. [Discussion and Analysis on YouTube](https://www.youtube.com/watch?v=W0o1njUNurQ)
