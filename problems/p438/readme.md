@@ -41,3 +41,4 @@ We will describe the space and time complexities in terms of *ls*, which is the 
 The links below outline some of the points discussed above in more detail.
 1. [Introduction to Circular Buffers](https://bytethisstore.com/articles/pg/circular-buffer)
 1. [Introduction to HashMaps](https://bytethisstore.com/articles/pg/implement-hash-table)
+1. [Discussion and Analysis on YouTube](https://youtu.be/xxFaiWVln0M)

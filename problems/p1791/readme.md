@@ -20,3 +20,8 @@ To summarize, our algorithm will:
 1. Iterate over the list of edges, and for each edge:
     1. If either node already exists in the hash set, return *true* immediately.
     1. Otherwise, add both nodes to the hash set.
+
+
+## Additional Resources
+The links below outline some of the points discussed above in more detail.
+1. [Discussion and Analysis on YouTube](https://youtu.be/QFFjjOGEQpU)

@@ -39,3 +39,4 @@ The time complexity is *O(v+e)*, as we will need to iterate once over the edges 
 The links below outline some of the points discussed above in more detail.
 1. [Introduction to HashMaps](https://bytethisstore.com/articles/pg/implement-hash-table)
 1. [Graph Traversal Algorithms](https://bytethisstore.com/articles/pg/graph-algorithms-depth-breadth-search)
+1. [Discussion and Analysis on YouTube](https://youtu.be/X6RkyPFE6wg)

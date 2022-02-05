@@ -30,3 +30,4 @@ The links below outline some of the points discussed above in more detail.
 1. [Introduction to HashMaps](https://bytethisstore.com/articles/pg/implement-hash-table)
 1. [Introduction to Queues](https://bytethisstore.com/articles/pg/queue)
 1. [Graph Traversal Algorithms](https://bytethisstore.com/articles/pg/graph-algorithms-depth-breadth-search)
+1. [Discussion and Analysis on YouTube](https://youtu.be/tKbwgdEupF0)

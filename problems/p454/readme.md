@@ -16,3 +16,4 @@ The space complexity is *O(n)*, as we will have a map which has *n* key value pa
 ## Additional Resources
 The links below outline some of the points discussed above in more detail.
 1. [Introduction to HashMaps](https://bytethisstore.com/articles/pg/implement-hash-table)
+1. [Discussion and Analysis on YouTube](https://youtu.be/kku30O4XpOg)

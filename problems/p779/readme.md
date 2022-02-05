@@ -28,3 +28,4 @@ The space complexity is *O(1)* as we are only using a small number of variables 
 The links below outline some of the points discussed above in more detail.
 1. [Introduction to Binary Trees](https://bytethisstore.com/articles/pg/binary-tree)
 1. [Binary Search](https://bytethisstore.com/articles/pg/binary-search)
+1. [Discussion and Analysis on YouTube](https://youtu.be/TfbfhC3fBGA)
