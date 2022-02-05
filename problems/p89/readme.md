@@ -3,6 +3,7 @@ This is my solution for LeetCode's problem 89: https://leetcode.com/problems/gra
 
 ## Problem Analysis
 The problem asks us to return a list of integers, in base 10, where the same numbers in binary (base 2) have one and only one of its digits differ between its previous and next entry, and the first and last entries must also only differ by one digit. The problem also outlines additional constraints that the first integer must be 0 and that no integer appears more than once. The fixed starting point of 0 allows us to do some analysis on what the second digit, and last digit, must be. Note that the nature of the list of numbers implies a symmetry: the 2nd and last items will have the same possibilities, the 3rd and 2nd to last items will have the same possibilities, etc. The table below oulines different possible values for the 2nd and last positions for different values of *n*:
+
 | n | binary options                    | decimal options |
 |---|-----------------------------------|-----------------|
 | 2 | 01, 10                            | 1, 2            |
@@ -11,6 +12,7 @@ The problem asks us to return a list of integers, in base 10, where the same num
 | 5 | 00001, 00010, 00100, 01000, 10000 | 1, 2, 4, 8, 16  |
 
 We can see a clear pattern emerging: the 2nd number, and last number, both must be powers of 2. Let's do a similar analysis for the 3rd, and 2nd to last positions:
+
 | n | binary options                     | decimal options    |
 |---|------------------------------------|--------------------|
 | 2 | 11                                 | 3                  |
@@ -29,6 +31,7 @@ With the information above, we are close to understanding how to generate the se
 In other words, we've drawn the original tree, then have analyzed how we can swap certain nodes to allow the leaf nodes to appear in an order which will satisfy the constraints of the problem. We've determined the rules for swapping are:
 1. Each right child should have its children swapped.
 1. Each left child should have its children in the normal order.
+
 ![Graph Diagram](diagram.png "Gray Code Diagram")
 
 ## Implementation Strategy
