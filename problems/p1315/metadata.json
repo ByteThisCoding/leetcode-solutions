@@ -1,0 +1,21 @@
+{
+    "problem": {
+        "number": 1315,
+        "path": "sum-of-nodes-with-even-valued-grandparent",
+        "title": "Sum of Nodes with Even-Valued Grandparent"
+    },
+    "solution": {
+        "ID": "05c13843-8c63-4a10-a174-a08e0cd7e3f6",
+        "title": "Modified DFS"
+    },
+    "youtubeVideoID": "SnWnCOZTgaY",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "dfs",
+        "depth first search",
+        "depth first traversal",
+        "tree",
+        "tree traversal"
+    ]
+}
