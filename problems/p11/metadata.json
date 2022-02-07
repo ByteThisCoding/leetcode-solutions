@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 11,
+        "path": "container-with-most-water",
+        "title": "Container With Most Water"
+    },
+    "solution": {
+        "ID": "349ca14d-7235-43f1-8fb9-3b7e64e42b81",
+        "title": "Double Pointer"
+    },
+    "youtubeVideoID": "T1cpJIMhLEw",
+    "tags": [
+        "two pointers",
+        "two iterators",
+        "two pointers algorithm",
+        "maximum area"
+    ]
+}

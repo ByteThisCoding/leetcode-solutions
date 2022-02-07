@@ -1,5 +1,8 @@
 package problems.p1315;
 
+/**
+ * This class is provided by LeetCode in the problem description
+ */
 public class TreeNode {
     int val;
     TreeNode left;
