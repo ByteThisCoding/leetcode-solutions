@@ -1,0 +1,19 @@
+{
+    "problem": {
+        "number": 78,
+        "path": "subsets",
+        "title": "Subsets"
+    },
+    "solution": {
+        "ID": "f5f77cb8-7efd-43c1-91f1-d981d2ad4f1f",
+        "title": "Subproblem Iteration"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "set",
+        "subset",
+        "binomial coefficient",
+        "power set",
+        "subproblem"
+    ]
+}
