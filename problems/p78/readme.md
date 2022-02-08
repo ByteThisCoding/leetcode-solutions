@@ -33,3 +33,4 @@ The space complexity, including the output answer, is *O(2^n)*. The set returned
 
 ## Additional Resources
 1. [Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle): if needed, we could use this to determine the size of each sub list.
+1. [Discussion and Analysis on YouTube](https://youtu.be/pa1HTgFvleI)
