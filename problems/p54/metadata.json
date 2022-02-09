@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 54,
+        "path": "spiral-matrix",
+        "title": "Spiral Matrix"
+    },
+    "solution": {
+        "ID": "55d96291-2ed9-436d-82a2-0d37151d7ecc",
+        "title": "Boundary Iterators"
+    },
+    "youtubeVideoID": "54OFPHY_CiM",
+    "tags": [
+        "matrix",
+        "2D array",
+        "linked list",
+        "iteration",
+        "spiral matrix",
+        "spiral"
+    ]
+}
