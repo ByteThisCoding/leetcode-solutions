@@ -39,4 +39,4 @@ If we were given a guarantee that each item in the input would be unique, we cou
 Once the iteration is concluded, we would calculate the *triangle number* of the largest positive integer, meaning the sum from 1 to that integer, and compare to the actual sum. If the two values are the same, then we have all integers from 1...n, so we can return *n.length + 1*. Otherwise, we can return *triangleNumber - actualSum*.
 
 ## Additional Resources
-1. [Discussion and Analysis on YouTube]( )
+1. [Discussion and Analysis on YouTube](https://youtu.be/b35rax6GQkM)
