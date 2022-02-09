@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 49,
+        "path": "group-anagrams",
+        "title": "Group Anagrams"
+    },
+    "solution": {
+        "ID": "5f5f4384-4124-4c82-a1b8-c87ca9a94d8d",
+        "title": "Indices Mapping"
+    },
+    "youtubeVideoID": "b35rax6GQkM",
+    "tags": [
+        "anagram",
+        "grouping",
+        "list of lists",
+        "hashmap",
+        "map",
+        "hashtable"
+    ]
+}

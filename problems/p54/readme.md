@@ -28,5 +28,5 @@ To summarize the algorithm
 The space complexity, including the output list itself, is *O(n)*, as the output list will contain every element, and we will only have a constant number of other variables not dependend upon the input size. The time complexity is *O(n)*, as we will be touching each element in the matrix exactly once.
 
 ## Additional Resources
-1. [Introduction to Linked Lists](https://bytethisstore.com/articles/pg/reverse-linked-list)
+1. [Introduction to Linked Lists](https://bytethisstore.com/articles/pg/linked-list)
 1. [Discussion and Analysis on YouTube](https://youtu.be/54OFPHY_CiM)

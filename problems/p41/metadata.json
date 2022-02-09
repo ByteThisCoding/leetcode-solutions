@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 41,
+        "path": "first-missing-positive",
+        "title": "First Missing Positive"
+    },
+    "solution": {
+        "ID": "04d64a5b-0710-4555-9e12-970593806a30",
+        "title": "Partial Sorting"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "positive integer",
+        "partial sorting"
+    ]
+}
