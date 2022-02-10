@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 515,
+        "path": "find-largest-value-in-each-tree-row",
+        "title": "Find Largest Value in Each Tree Row"
+    },
+    "solution": {
+        "ID": "ea5420b0-3423-469b-b843-57efc4c03d4c",
+        "title": "BFS over Tree"
+    },
+    "youtubeVideoID": "0im1eLtWDBk",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "tree",
+        "tree traversal",
+        "bfs",
+        "breadth first search"
+    ]
+}
