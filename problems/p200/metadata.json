@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 200,
+        "path": "number-of-islands",
+        "title": "Number of Islands"
+    },
+    "solution": {
+        "ID": "a66106fe-f779-43b8-88d1-323e010d835d",
+        "title": "Graph of One"
+    },
+    "youtubeVideoID": "lRWeVRNLe74",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "iteration"
+    ]
+}

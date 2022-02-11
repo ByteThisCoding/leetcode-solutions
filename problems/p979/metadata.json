@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 979,
+        "path": "distribute-coins-in-binary-tree",
+        "title": "Distribute Coins in Binary Tree"
+    },
+    "solution": {
+        "ID": "3de6672b-c970-46b5-b07c-cd00c0461726",
+        "title": "DFS 2 Counters"
+    },
+    "youtubeVideoID": "jraf8xjHo9I",
+    "tags": [
+        "graph",
+        "graph traversal",
+        "dfs",
+        "depth first search"
+    ]
+}
