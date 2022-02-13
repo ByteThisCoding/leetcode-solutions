@@ -1,0 +1,15 @@
+{
+    "problem": {
+        "number": 2155,
+        "path": "all-divisions-with-the-highest-score-of-a-binary-array",
+        "title": "All Divisions With the Highest Score of a Binary Array"
+    },
+    "solution": {
+        "ID": "e0bad746-bf43-452e-9bea-9bf28e371621",
+        "title": "Double Reverse Counters"
+    },
+    "youtubeVideoID": "Zxmgp0tIO4k",
+    "tags": [
+        "subsum array"
+    ]
+}
