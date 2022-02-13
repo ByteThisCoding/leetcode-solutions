@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 2100,
+        "path": "find-good-days-to-rob-the-bank",
+        "title": "Find Good Days to Rob the Bank"
+    },
+    "solution": {
+        "ID": "50d9815f-022a-47dd-85ad-e23218060a57",
+        "title": "Split Local Minima"
+    },
+    "youtubeVideoID": "n_vY766hT98",
+    "tags": [
+        "local minima",
+        "local maxima"
+    ]
+}

@@ -39,6 +39,7 @@ public class Main extends SolutionRunner<List<Integer>, Solution> {
     @Override
     protected ArrayList<TestCase<List<Integer>>> getTestCases() {
         ArrayList<TestCase<List<Integer>>> cases = new ArrayList<>();
+
         cases.add(new TestCase<List<Integer>>("LeetCode example 1", new ArrayList<>(Arrays.asList(0, 6)), new Object[] {
                 "cbaebabacd",
                 "abc"
