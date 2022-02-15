@@ -46,7 +46,7 @@ public class Main extends SolutionRunner<List<Integer>, Solution> {
         cases.add(new TestCase<List<Integer>>("LeetCode Example 2", Arrays.asList(3), new Object[] {
                 new int[] { 0, 0, 0 }
         }));
-        cases.add(new TestCase<List<Integer>>("LeetCode Example 2", Arrays.asList(0), new Object[] {
+        cases.add(new TestCase<List<Integer>>("LeetCode Example 3", Arrays.asList(0), new Object[] {
                 new int[] { 1, 1 }
         }));
 

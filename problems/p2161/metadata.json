@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 2161,
+        "path": "partition-array-according-to-given-pivot",
+        "title": "Partition Array According to Given Pivot"
+    },
+    "solution": {
+        "ID": "0c567b5a-20c1-46eb-b4a4-ce1bd74a99b4",
+        "title": "Two Pivot Arrays"
+    },
+    "youtubeVideoID": "qnpj7hXLRM0",
+    "tags": [
+        "arrays",
+        "lists",
+        "pivot"
+    ]
+}
