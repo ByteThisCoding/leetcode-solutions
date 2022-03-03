@@ -1,8 +1,8 @@
 {
     "problem": {
         "number": 1493,
-        "path": "find-center-of-star-graph",
-        "title": "longest-subarray-of-1s-after-deleting-one-element"
+        "path": "longest-subarray-of-1s-after-deleting-one-element",
+        "title": "Longest Subarray of 1's After Deleting One Element"
     },
     "solution": {
         "ID": "H3s-yIt_r0p21x3HS6IFE",
