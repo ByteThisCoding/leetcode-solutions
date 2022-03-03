@@ -1,0 +1,15 @@
+{
+    "problem": {
+        "number": 2048,
+        "path": "next-greater-numerically-balanced-number",
+        "title": "Next Greater Numerically Balanced Number"
+    },
+    "solution": {
+        "ID": "wp4-hwJu9Gbgjol0eb0ap",
+        "title": "Integer as Linked List"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "linked list"
+    ]
+}

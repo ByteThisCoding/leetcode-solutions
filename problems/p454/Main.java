@@ -55,5 +55,4 @@ public class Main extends SolutionRunner<Integer, Solution> {
 
         return cases;
     }
-
 }
