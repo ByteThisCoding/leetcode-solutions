@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 1493,
+        "path": "find-center-of-star-graph",
+        "title": "longest-subarray-of-1s-after-deleting-one-element"
+    },
+    "solution": {
+        "ID": "H3s-yIt_r0p21x3HS6IFE",
+        "title": "Constant Space and Linear Time"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "array",
+        "iteration",
+        "linear time",
+        "constant space"
+    ]
+}
