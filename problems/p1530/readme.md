@@ -29,7 +29,7 @@ We will perform a recursive depth first search and count the number of pairs we 
 For convenience, we'll keep track of the total pair count as an instance property. For performance, we'll use a *TreeMap*, which is a map where they keys are sorted. This will make getting the submap take *O(log n)* time instead of *O(n)* time.
 
 ## Space and Time Complexity
-The space complexity is *O(n⋅log(n))*, as we'll need to keep track of *log(n)* methods on the call stack, and for each call, keep track of the depth of each leaf node, where there are up to *n/2* leaf nodes. The time complexity is *O(n⋅log(n))*, as we'll need to iterate over each node, and for each node, determine the compliment submaps, which takes *O(log(n))* since we are using *SortedMaps*.
+The space complexity is *O(n⋅log(n))*, as we'll need to keep track of *log(n)* methods on the call stack, and for each call, keep track of the depth of each leaf node, where there are up to *n/2* leaf nodes. The time complexity is *O(n^2⋅log(n))*, as we'll need to iterate over each node, and for each node, iterate over the compliment submaps to update the pair counts and iterate over the full maps themselves to copy the values.
 
 ## Additional Resources
 The links below outline some of the points discussed above in more detail.
