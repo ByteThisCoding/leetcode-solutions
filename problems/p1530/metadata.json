@@ -1,0 +1,19 @@
+{
+    "problem": {
+        "number": 1530,
+        "path": "number-of-good-leaf-nodes-pairs",
+        "title": "Number of Good Leaf Nodes Pairs"
+    },
+    "solution": {
+        "ID": "aZ9NVVvgFHiwwwiSCTEbQ",
+        "title": "Sorted Map Traversal"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "depth first search",
+        "set",
+        "sorted map",
+        "tree map"
+    ]
+}
