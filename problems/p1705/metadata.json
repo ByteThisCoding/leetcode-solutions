@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 1705,
+        "path": "maximum-number-of-eaten-apples",
+        "title": "Maximum Number of Eaten Apples"
+    },
+    "solution": {
+        "ID": "HGE9AlDqeBG71vjaXtj89",
+        "title": "Apple Baskets in Priority Queue"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "heap",
+        "priority queue"
+    ]
+}
