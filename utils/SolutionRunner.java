@@ -54,6 +54,13 @@ public abstract class SolutionRunner<T, S> {
     protected abstract Class<S> getSolutionClass();
 
     /**
+     * Format a result to a string
+     */
+    protected String resultToString(T result) {
+        return result.toString();
+    }
+
+    /**
      * Get a reference of the solution instance to call methods on
      * 
      * @throws SecurityException
@@ -117,7 +124,8 @@ public abstract class SolutionRunner<T, S> {
                 (int) (end - start),
                 test.getExpectedResult(),
                 result,
-                areValuesEqual(test.getExpectedResult(), result));
+                areValuesEqual(test.getExpectedResult(), result),
+                (output) -> resultToString(output));
     }
 
     /**

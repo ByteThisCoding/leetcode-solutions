@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.function.Function;
+
 /**
  * Encapsulates the result of a solution run on a single input
  */
@@ -10,18 +12,21 @@ public class SingleSolutionResult<T> {
     private T expected;
     private T actual;
     private boolean areEqual;
+    private Function<T, String> resultToString;
 
     public SingleSolutionResult(
             String runTitle,
             int timeExeMs,
             T expected,
             T actual,
-            boolean areEqual) {
+            boolean areEqual,
+            Function<T, String> resultToString) {
         this.runTitle = runTitle;
         this.timeExeMs = timeExeMs;
         this.expected = expected;
         this.actual = actual;
         this.areEqual = areEqual;
+        this.resultToString = resultToString;
     }
 
     public String getRunTitle() {
@@ -49,7 +54,7 @@ public class SingleSolutionResult<T> {
         String output = (getIsCorrect() ? "Passed" : "FAILED") + ":: " + getRunTitle() + ": in " + getTimeExeMs()
                 + "ms";
         if (!getIsCorrect()) {
-            output += " -- expected " + expected + " but got " + actual;
+            output += " -- expected " + resultToString.apply(expected) + " but got " + resultToString.apply(actual);
         }
         return output;
     }

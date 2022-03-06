@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 1782,
+        "path": "count-pairs-of-nodes",
+        "title": "Count Pairs Of Nodes"
+    },
+    "solution": {
+        "ID": "tR7xIY0-n0Ok-W2Nf0D0u",
+        "title": "Node and Edge Degrees"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "graph",
+        "degrees",
+        "node",
+        "edge",
+        "incident",
+        "query"
+    ]
+}
