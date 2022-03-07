@@ -3,6 +3,7 @@ This is my solution for LeetCode's problem 1209: https://leetcode.com/problems/r
 
 ## Problem Analysis
 We are given a string, which we'll refer to as **str**, and an integer **k**. We must remove all occurences of **k** sequences of repeated characters within the string. We must then repeat this process on the new string, etc, until the final string has no **k** sequences of repeated characters. Then, we will return that modified string. The example below, provied by LeetCode, outlines this process:
+
 * **Input**: str="deeedbbcccbdaa" and k="3"
 * **Output**: "aa"
 * **Explanation**:
@@ -11,6 +12,7 @@ We are given a string, which we'll refer to as **str**, and an integer **k**. We
     1. Finally delete "ddd", get "aa"
 
 Our implementation will also need to account for these edge cases:
+
 * No **k** sequences of repeated characters exists.
 * The removal process will remove every character.
 * Sequences will be removed from the very beginning or very end of the input string.
@@ -21,6 +23,7 @@ In order to do so, we'll need to find a way of keeping track of repeated occuren
 
 ## Implementation Strategy
 The diagram below shows the stack concept applied to an example string "daabbcccbad" for "k=3". We've omitted a few operations for convenience, so instead of inserting "1" at each point, then updating to "2", etc, we insert the appropriate number immediately. The first deletion to make is "ccc"; we see that we have a count of *3*, so we remove the substring. At the next point, we come to the 3rd "b", see the count is *3*, and make the removal again. Then, the remaining "aaa" is also removed, leaving us with "dd" as the output, since we've removed all **k** consecutive occurences and have reached the end of the string.
+
 ![Algorithm Diagram](diagram.png "Algorithm Diagram")
 
 The algorithm within the Java file is based on the algorithm described in the diagram above. The last question we must answer: what is the most efficient way to make these deletions? A doubly linked list is be suitable for this, as we can keep references to the current node based on the state of the iteration, then navigate as needed when making deletions. Each deletion will take **k** steps. If we used an array of characters, or even Java's *StringBuilder*, this would take *n* steps instea dof *k* steps.
