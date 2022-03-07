@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 1209,
+        "path": "remove-all-adjacent-duplicates-in-string-ii",
+        "title": "Remove All Adjacent Duplicates in String II"
+    },
+    "solution": {
+        "ID": "h9_8k336O9NOkGr-XmyuH",
+        "title": "Stack and Linked List"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "stack",
+        "linked list",
+        "doubly linked list"
+    ]
+}
