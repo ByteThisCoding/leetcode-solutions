@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 212,
+        "path": "best-time-to-buy-and-sell-stock",
+        "title": "Best Time to Buy and Sell Stock"
+    },
+    "solution": {
+        "ID": "NcGnTmiD7gnIwRhY0cPk-",
+        "title": "Double Cursor"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "list",
+        "array"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 48,
+        "path": "rotate-image",
+        "title": "Rotate Image"
+    },
+    "solution": {
+        "ID": "v8hZuA5Dm6PmwOjiAxCJH",
+        "title": "Matrix Rings"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "matrix",
+        "rings",
+        "recursion",
+        "array"
+    ]
+}

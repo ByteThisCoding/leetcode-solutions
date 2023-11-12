@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 2089,
+        "path": "find-target-indices-after-sorting-array",
+        "title": "Find Target Indices After Sorting Array"
+    },
+    "solution": {
+        "ID": "kQeixbNChrP1y4LzUBinQ",
+        "title": "Counting Different Elements"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "arrays",
+        "lists",
+        "sorting"
+    ]
+}
