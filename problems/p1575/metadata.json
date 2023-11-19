@@ -1,0 +1,20 @@
+{
+    "problem": {
+        "number": 1575,
+        "path": "count-all-possible-routes",
+        "title": "Count All Possible Routes"
+    },
+    "solution": {
+        "ID": "klPEYxHNdrBfsmBx_W3Ob",
+        "title": "DFS with Memoization"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "array",
+        "map",
+        "hashmap",
+        "dfs",
+        "depth first search",
+        "memoization"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 1798,
+        "path": "maximum-number-of-consecutive-values-you-can-make",
+        "title": "Maximum Number of Consecutive Values You Can Make"
+    },
+    "solution": {
+        "ID": "KiWlRYpn-tWA-7bjopLGb",
+        "title": "Sorted Coins"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "sorting",
+        "input",
+        "list",
+        "coins"
+    ]
+}
