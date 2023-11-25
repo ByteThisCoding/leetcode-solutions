@@ -1,0 +1,15 @@
+{
+    "problem": {
+        "number": 1720,
+        "path": "decode-xored-array",
+        "title": "Decode XORed Array"
+    },
+    "solution": {
+        "ID": "Oi4W9Mnpd4i_NB0SC-q22",
+        "title": "Repeated Application"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "xor"
+    ]
+}

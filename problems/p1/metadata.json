@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 1,
+        "path": "two-sum",
+        "title": "Two Sum"
+    },
+    "solution": {
+        "ID": "yDmD2pS0FO9RC1omU3iFR",
+        "title": "Map Optimization"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "hashmap"
+    ]
+}

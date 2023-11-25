@@ -1,0 +1,19 @@
+{
+    "problem": {
+        "number": 1368,
+        "path": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+        "title": "Minimum Cost to Make at Least One Valid Path in a Grid"
+    },
+    "solution": {
+        "ID": "DbJjfvX7Tj_3UJ8Ovcqel",
+        "title": "Path and Jump"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "grid",
+        "cell",
+        "linked list",
+        "queue",
+        "cost"
+    ]
+}
