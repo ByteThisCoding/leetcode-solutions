@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 51,
+        "path": "n-queens",
+        "title": "N-Queens"
+    },
+    "solution": {
+        "ID": "5Gm9V6wFVK7JWmHBbmZ46",
+        "title": "Backtracking with Caching"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "depth first search",
+        "graph traversal",
+        "backtracking"
+    ]
+}

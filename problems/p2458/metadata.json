@@ -1,0 +1,18 @@
+{
+    "problem": {
+        "number": 2458,
+        "path": "height-of-binary-tree-after-subtree-removal-queries",
+        "title": "Height of Binary Tree After Subtree Removal Queries"
+    },
+    "solution": {
+        "ID": "ZOV37Rp6lTrgzhUjYV0gU",
+        "title": "Node Depth Collection"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "binary tree",
+        "tree traversal",
+        "depth first search"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 2101,
+        "path": "detonate-the-maximum-bombs",
+        "title": "Detonate the Maximum Bombs"
+    },
+    "solution": {
+        "ID": "dDc_AxhS_stxJcR5h7Gvn",
+        "title": "Breadth First Search"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "tree traversal",
+        "breadth first search"
+    ]
+}

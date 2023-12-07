@@ -1,0 +1,13 @@
+{
+    "problem": {
+        "number": 1313,
+        "path": "decompress-run-length-encoded-list",
+        "title": "Decompress Run-Length Encoded List"
+    },
+    "solution": {
+        "ID": "oUwD508-l7juU2UheIQd7",
+        "title": "Iterate and Count"
+    },
+    "youtubeVideoID": "",
+    "tags": []
+}

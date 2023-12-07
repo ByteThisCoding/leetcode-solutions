@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 56,
+        "path": "merge-intervals",
+        "title": "Merge Intervals"
+    },
+    "solution": {
+        "ID": "Y9V_u9nTNJ4CNAOrwD5jo",
+        "title": "Sort and Search"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "list",
+        "array",
+        "sort"
+    ]
+}

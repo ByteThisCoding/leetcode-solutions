@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 20,
+        "path": "valid-parentheses",
+        "title": "Valid Parentheses"
+    },
+    "solution": {
+        "ID": "Ecl3R6N3Tj1xdQfs7T2pf",
+        "title": "Stacks"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "stack",
+        "linked list"
+    ]
+}

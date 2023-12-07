@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 1146,
+        "path": "snapshot-array",
+        "title": "Snapshot Array"
+    },
+    "solution": {
+        "ID": "h9_8k336O9NOkGr-XmyuH",
+        "title": "Revision History with Binary Search"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "binary search",
+        "hashmap"
+    ]
+}
