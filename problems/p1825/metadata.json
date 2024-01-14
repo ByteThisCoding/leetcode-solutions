@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 1825,
+        "path": "finding-mk-average",
+        "title": "Finding MK Average"
+    },
+    "solution": {
+        "ID": "Szj2rYuTVM_5bHJP7grKg",
+        "title": "Finding MK Average"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "binary tree",
+        "binary search tree",
+        "circular buffer"
+    ]
+}

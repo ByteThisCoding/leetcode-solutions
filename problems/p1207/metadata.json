@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 1207,
+        "path": "unique-number-of-occurrences",
+        "title": "Unique Number of Occurrences"
+    },
+    "solution": {
+        "ID": "5i4asOtcFAdAHqu8qmzy2",
+        "title": "Maps and Sets"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "hashmap"
+    ]
+}

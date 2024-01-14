@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 2186,
+        "path": "minimum-number-of-steps-to-make-two-strings-anagram-ii",
+        "title": "Minimum Number of Steps to Make Two Strings Anagram II"
+    },
+    "solution": {
+        "ID": "pCdX2lMeP4fZJakLK8hBD",
+        "title": "Single Map"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "hashmap",
+        "hashtable"
+    ]
+}

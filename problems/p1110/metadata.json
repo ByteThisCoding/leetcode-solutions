@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "number": 1110,
+        "path": "delete-nodes-and-return-forest",
+        "title": "Delete Nodes And Return Forest"
+    },
+    "solution": {
+        "ID": "2JrDizEYXgWgJD8YktIBT",
+        "title": "Depth first search with set"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "hashset",
+        "set",
+        "depth first search"
+    ]
+}

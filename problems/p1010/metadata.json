@@ -1,0 +1,13 @@
+{
+    "problem": {
+        "number": 1010,
+        "path": "pairs-of-songs-with-total-durations-divisible-by-60",
+        "title": "Pairs of Songs With Total Durations Divisible by 60"
+    },
+    "solution": {
+        "ID": "NkErPEhWJeZvA0YQIiorh",
+        "title": "Sum Pairs with Modulo"
+    },
+    "youtubeVideoID": "",
+    "tags": []
+}
