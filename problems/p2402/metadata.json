@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 2402,
+        "path": "meeting-rooms-iii",
+        "title": "Meeting Rooms III"
+    },
+    "solution": {
+        "ID": "56D242Zf4YT8-zWzldBjf",
+        "title": "Multi-Poll Binary Heap"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "min heap",
+        "priority queue"
+    ]
+}

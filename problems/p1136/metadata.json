@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 1136,
+        "path": "parallel-courses",
+        "title": "Parallel Courses"
+    },
+    "solution": {
+        "ID": "JxmAsWk0Frr1Z9jxch-9g",
+        "title": "DFS With Memoization"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "dfs",
+        "memoization"
+    ]
+}

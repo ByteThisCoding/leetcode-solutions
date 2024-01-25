@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 2265,
+        "path": "count-nodes-equal-to-average-of-subtree",
+        "title": "Count Nodes Equal to Average of Subtree"
+    },
+    "solution": {
+        "ID": "Qttp_R8jhNhN6zpxenkMx",
+        "title": "Depth First Search"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "graph traversal",
+        "depth first search"
+    ]
+}

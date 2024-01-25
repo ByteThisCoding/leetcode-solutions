@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 359,
+        "path": "logger-rate-limiter",
+        "title": "Logger Rate Limiter"
+    },
+    "solution": {
+        "ID": "Bn3IQyKr6XsTrj4rex7kb",
+        "title": "HashMap"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "map",
+        "hashmap"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "problem": {
+        "number": 1101,
+        "path": "the-earliest-moment-when-everyone-become-friends",
+        "title": "The Earliest Moment When Everyone Become Friends"
+    },
+    "solution": {
+        "ID": "jhNTjKfhzhSZC8zKlB4FZ",
+        "title": "Disjoint Union"
+    },
+    "youtubeVideoID": "",
+    "tags": [
+        "disjoint union",
+        "union find"
+    ]
+}
